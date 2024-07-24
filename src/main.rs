@@ -1,8 +1,4 @@
-use reqwest::{header::{HeaderMap,HeaderValue, ACCEPT, AUTHORIZATION, USER_AGENT}, Client};
-// use serde::{Serialize,Deserialize};
-use serde_json::Value;
 use std::io;
-
 
 mod githubsearchtool;
 use githubsearchtool::githubsearchtool::GithubSearchTool;

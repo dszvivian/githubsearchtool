@@ -18,9 +18,9 @@ pub mod githubsearchtool{
 
             dotenv().ok().expect("Can't read.env file");  //loads the variables from .env file     
             
-            let GITHUB_ACCESS_TOKEN =  std::env::var("GITHUB_ACCESS_TOKEN").expect("Add github access token in .env file");
+            let github_access_token =  std::env::var("GITHUB_ACCESS_TOKEN").expect("Add github access token in .env file");
 
-            let auth_value = format!("Bearer: {GITHUB_ACCESS_TOKEN}");
+            let auth_value = format!("Bearer: {github_access_token}");
 
             let mut headers = HeaderMap::new();
             headers.insert(ACCEPT,HeaderValue::from_static("application/vnd.github+json"));

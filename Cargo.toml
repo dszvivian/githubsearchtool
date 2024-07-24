@@ -1,11 +1,9 @@
 [package]
-name = "apitest"
+name = "githubsearchtool"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-base64 = "0.22.1"
-data-encoding = "2.6.0"
 dotenv = "0.15.0"
 reqwest = "0.12.5"
 serde = {version="1.0.204" , features = ["derive"] }
