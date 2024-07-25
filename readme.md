@@ -8,6 +8,20 @@
 - Learn about RAG ---> Implementing it from Scratch
 
 
+## Installation:
+
+- create a .env file and add
+
+```
+GITHUB_ACCESS_TOKEN = YOUR_API_KEY
+GROQ_API_KEY= YOUR_API_KEY
+```
+
+```
+cargo run 
+```
+
+
 ### Todos: 
 
 - [ ] Recursively Search for files
@@ -16,7 +30,7 @@
 - [ ] Priortizing files 
     (ie: To reduce Api calls we have to priortize  
     which file content to serve LLLm to generate documentation)
-- [ ] Serating Different logics into Different Functions 
+- [ ] Seperating Different logics into Different Functions 
 - [ ] Error Handling
     - [ ] Repo Not Found
     - [ ] Private Repo
